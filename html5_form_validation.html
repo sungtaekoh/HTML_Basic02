@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>입력양식의 유효성 체크</h1>
+    <h2>설명</h2>
+    <p>
+      required : 입력칸을 채우지 않고서는 제출이 되질 않는다<br>
+      pattern : []안에 조건을 넣으면 조건을 충족해야만 제출이 된다
+    </p>
+    <form action="">
+      <input type="text" name="id" value="" placeholder="아이디를 입력해주세요"
+      required pattern="[a-zA-Z].+[0-9]">
+      <input type="email" name="email" value="" placeholder="이메일 입력">
+      <input type="submit">
+
+
+
+    </form>
+  </body>
+</html>
